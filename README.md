@@ -7,4 +7,7 @@ About Me Page: I am a Marketing & Branding Planner based in Tokyo Japan. I devel
 I am fluent in English & Italian and conversational in Japanese. I am a graduate of the University of Wisconsin and have completed courses at the University of Bologna. 
 #31ad8c hex color
 LinkedIn link: https://www.linkedin.com/in/kenjihosokawa1110/
+
 Business email: khosokawa10@gmail.com
+
+
