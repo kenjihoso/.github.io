@@ -17,7 +17,7 @@ Business email: khosokawa10@gmail.com
 
 To Do (style/formatting):
   * ~~move my name up by 1/2~~
-  * place text under and center for AdPlatz 
-  * fix text for mobile format
-  * add the combined resume to resume page
-  * change menu button to Eng/JP Resume
+  * ~~place text under and center for AdPlatz~~ 
+  * ~~fix text for mobile format~~
+  * ~~add the combined resume to resume page~~
+  * ~~change menu button to Eng/JP Resume~~
