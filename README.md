@@ -16,3 +16,4 @@ To Do (style/formatting):
   * move my name up by 1/2
   * place text under and center for AdPlatz 
   * fix text for mobile format
+  * add the Japanese resume to the resume page
