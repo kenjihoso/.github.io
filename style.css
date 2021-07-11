@@ -58,3 +58,7 @@ body{
   visibility: visible;
   opacity: 0.9; 
  }
+
+ #image_content{
+  user-select: none;
+}
