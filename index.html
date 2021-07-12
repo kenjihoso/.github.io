@@ -38,7 +38,7 @@
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
         </svg>
       </button>
-      <nav class="absolute text-gray-300 text-lg flex-col w-full items-center"
+      <nav class="text-gray-300 text-lg flex-col w-full items-center"
         :class="{ 'flex' : mobileMenuOpen , 'hidden' : !mobileMenuOpen}" @click.away="mobileMenuOpen = false">
         <a class="flex " href="index" aria-current="page">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 pr-1 " viewBox="0 0 20 20" fill="currentColor">
@@ -68,10 +68,10 @@
           <h1
           class="flex text-6xl md:text-8xl text-white pb-2 font-medium">
           Kenji Hosokawa</h1>
-          <p class=" text-2xl md:text-3xl mt-2 transition duration-500 text-gray-800 hover:text-black">As a freelance Marketing & Branding Planner, I hold four core beliefs.
+          <p class=" text-xl md:text-3xl mt-2 transition duration-500 text-gray-800 hover:text-black">As a freelance Marketing & Branding Planner, I hold four core beliefs.
           </p>
           <div>
-            <ul class="list-disc text-base  md:text-xl mt-2 ml-12 transition duration-500 text-gray-800 hover:text-black">
+            <ul class="list-disc text-base  md:text-xl mt-2 ml-8 md:ml-12 transition duration-500 text-gray-800 hover:text-black">
               <li>Treat client's interest as my own</li>
               <li>Discuss tough yet significant issues in a straight forward way</li>
               <li>Invigorate client business with elevated brand recognition</li>
@@ -99,24 +99,32 @@
       <div id="content_img" class="flex">
         <img class="rounded" src="assets/kh_portfolio.jpg" alt="">
         <div id="image_content">
-          <p class="text-base md:text-3xl text-black">This campaign demonstrated NYK Group's day in and day out devotion to consistently be "Bringing value to life"</p></div>
+          <p class="text-sm md:text-3xl text-black">This campaign demonstrated NYK Group's day in and day out devotion to consistently be "Bringing value to life"</p></div>
       </div>
       <div id="content_img" class="flex">
         <img class="rounded" src="assets/kh_portfolio2.jpg" alt="">
         <div id="image_content">
-          <p class="text-base md:text-3xl text-black">This campaign celebrated NYK Line's commitment to "Bringing value to life" to people on a global scale</p></div>
+          <p class="text-sm md:text-3xl text-black">This campaign celebrated NYK Line's commitment to "Bringing value to life" to people on a global scale</p></div>
       </div>
       <div id="content_img" class="flex">
         <img class="rounded" src="assets/kh_portfolio3.jpg" alt="">
         <div id="image_content">
-          <p class="text-base md:text-3xl text-black">This campaign highlighted NYK's dedication to "Bringing value to life" through its enviornmental, renewable energy, and raw material initiatives</p></div>
+          <p class="text-sm md:text-3xl text-black">This campaign highlighted NYK's dedication to "Bringing value to life" through its enviornmental, renewable energy, and raw material initiatives</p></div>
       </div>
       <div id="content_img" class="flex">
-        <img class="rounded" src="assets/adplatz.png" alt="">
+        <img class="rounded mb-4 md:mb-0" src="assets/adplatz.png" alt="">
         <div id="adplatz_image_content">
           <a class="block rounded py-1 mx-4 md:mx-32 border border-black"
           href="https://github.com/kenjihoso/kenjihoso.github.io/raw/main/assets/kenjihosokawa_brandingwork.pdf">
-          <p class="text-sm md:text-xl text-black">Click here view this branding project!</p></a>
+          <p class="text-sm md:text-base text-black">Click here view this branding project!</p></a>
+        </div>
+      </div>
+      <div id="content_img" class="flex">
+        <img class="rounded mb-10" src="assets/native.png" alt="">
+        <div id="adplatz_image_content">
+          <a class="block rounded py-1 border border-black"
+          href="https://github.com/kenjihoso/kenjihoso.github.io/raw/main/assets/G%26A%20Alcohol%20category%20v2_KH.pptx.zip">
+          <p class="text-sm md:text-base text-black">Click here view this branding project!</p></a>
         </div>
       </div>
       
@@ -124,7 +132,7 @@
   </main>
 
   <footer>
-    <div class="flex justify-between md:m-12 m-4 mt-20 pb-8 md:pb-0 md:pt-16 items-center">
+    <div class="flex justify-between md:m-12 m-4 mt-20 pb-8 md:pb-0 md:pt-8 items-center">
       <div class="flex flex-wrap">
         <a href="https://www.linkedin.com/in/kenjihosokawa1110/" rel="noopener" target="_blank" title="LinkedIn">
           <svg class="fill-current text-gray-200 w-8 md:w-14 transition duration-300 hover:text-gray-400" version="1.1" viewBox="0 0 1792 1792"
