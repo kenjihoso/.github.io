@@ -21,3 +21,6 @@ To Do (style/formatting):
   * ~~fix text for mobile format~~
   * ~~add the combined resume to resume page~~
   * ~~change menu button to Eng/JP Resume~~
+  * add the combined eng/jp resume to resume page
+  * add native creative logo and ppt to home page (same as adplatz)
+  * 
