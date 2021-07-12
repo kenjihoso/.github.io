@@ -22,5 +22,5 @@ To Do (style/formatting):
   * ~~add the combined resume to resume page~~
   * ~~change menu button to Eng/JP Resume~~
   * add the combined eng/jp resume to resume page
-  * add native creative logo and ppt to home page (same as adplatz)
+  * add native creative logo and G&A alcohol ppt to home page (same as adplatz)
   * 
