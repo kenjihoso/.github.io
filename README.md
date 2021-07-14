@@ -29,4 +29,4 @@ To Do (style/formatting):
   * ~~change menu button to Eng/JP Resume~~
   * add the combined eng/jp resume to resume page
   * add native creative logo and G&A alcohol ppt to home page (same as adplatz)
-  * 
+  * select which font you'd like to use (kenji)
