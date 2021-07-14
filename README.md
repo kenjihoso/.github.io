@@ -31,3 +31,4 @@ To Do (style/formatting):
   * ~~add native creative logo and G&A alcohol ppt to home page (same as adplatz)~~
   * add password to zip file
   * select which font you'd like to use (kenji)
+  * Try the black native creative logo
