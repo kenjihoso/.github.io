@@ -1,5 +1,5 @@
 # kenjihoso.github.io
-Home Page: As a freelance Marketing & Branding Advisor, I hold four core beliefs. 
+Home Page: As a Marketing & Branding Advisor, I hold four core beliefs. 
   * Treat client's interest as my own
   * Discuss tough yet significant issues in a straight forward way 
   * Invigorate client business with elevated brand recognition 
