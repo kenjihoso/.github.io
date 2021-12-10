@@ -11,8 +11,7 @@
   <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
 
 </head>
-
-<body class="w-full">
+<body class="flex flex-col min-h-screen ">
   <header>
     <div id="navbar" class="hidden md:block">
       <ul class="flex text-white">
@@ -38,7 +37,7 @@
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
         </svg>
       </button>
-      <nav class="text-gray-300 text-lg flex-col w-full items-center mb-4"
+      <nav class="text-gray-300 text-lg flex-col w-full items-center"
         :class="{ 'flex' : mobileMenuOpen , 'hidden' : !mobileMenuOpen}" @click.away="mobileMenuOpen = false">
         <a class="flex " href="index" aria-current="page">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 pr-1 " viewBox="0 0 20 20" fill="currentColor">
@@ -64,40 +63,39 @@
       </nav>
     </div>
   </header>
-  <main>
-    <div class="flex flex-wrap h-screen w-4/5 content-center mx-auto">
-      <div class="w-full md:w-1/2 content-center mt-20 md:mt-0">
+  <main class="flex-grow">
+    <div class="pt-10 lg:grid lg:grid-cols-2 place-items-center content-center">
+      <div class="w-4/5 md:w-5/6 justify-content-center align-items-center md:mt-0 mx-auto">
         <h1
-          class="flex-1 text-2xl md:text-4xl text-white pb-8 md:pb-10 lg:pb-10 text-center md:text-left font-medium">
+          class="flex-1 text-2xl md:text-3xl lg:text-4xl text-white pb-8 md:pb-10 lg:pb-10 text-center md:text-left font-medium">
           Find, Define, Create Value from an International Perspective</h1>
-        <p
-          class="flex-2 text-sm md:text-xl text-gray-800 text-center md:text-left transition duration-500 hover:text-gray-900">
+         <p
+          class="flex-2 text-sm md:text-base xl:text-lg text-gray-800 text-center md:text-left transition duration-500 hover:text-gray-900">
           As a Brand and Marketing Advisor located in Tokyo, I have had the pleasure of working under
           and advising Agency Owners and Presidents with a combined experience in the Japanese
           market of over 70+ years. They include a Former Sony VP, a Former Wunderman Planning
           Director, and a Former Hakuhodo Creative Director.
         </p><br>
         <p
-          class="flex-2 text-sm md:text-xl text-gray-800 text-center md:text-left transition duration-500 hover:text-gray-900">
+          class="flex-2 text-sm md:text-base xl:text-lg text-gray-800 text-center md:text-left transition duration-500 hover:text-gray-900">
           I can draw on my cultural background from three different countries to advise you. I grew up in
           the US, lived in Italy, and have been living in Japan, my father's home country, for two years
           now. Therefore, I can advise on how to create value from a Japanese, European, and American
           value perspective.
         </p><br>
         <p
-          class="flex-2 text-sm md:text-xl text-gray-800 text-center md:text-left transition duration-500 hover:text-gray-900">
+          class="flex-2 text-sm md:text-base xl:text-lg text-gray-800 text-center md:text-left transition duration-500 hover:text-gray-900">
           I look forward to offering my creative and research skills to help you discover and clearly define
           your current value in the Japanese and global marketplace, and to help you create more value
           in the future.</p>
       </div>
-      <div class="w-full md:w-1/2 pt-8 md:pt-0">
-        <img class="rounded w-4/5 mx-auto	" src="assets/kenjihosokawa.jpg" alt="">
+      <div class="w-full md:w-5/6 pt-8 md:pt-0 align-middle mx-auto">
+        <img class="rounded mx-auto	w-3/5 max-h-[32rem]" src="assets/kenjihosokawa.jpg" alt="">
       </div>
     </div>
   </main>
-
   <footer>
-    <div class="flex justify-between md:m-12 m-4 mt-20 pb-8 md:pb-0 items-center">
+    <div class="flex justify-between md:m-12 m-4 mt-10 pb-8 md:pb-0 items-center">
       <div class="flex flex-wrap">
         <a href="https://www.linkedin.com/in/kenjihosokawa1110/" rel="noopener" target="_blank" title="LinkedIn">
           <svg class="fill-current text-white w-8 md:w-14 transition duration-300 hover:text-gray-200" version="1.1" viewBox="0 0 1792 1792"
@@ -112,11 +110,11 @@
       <div class="block md:hidden text-white align-middle text-xs text-center"> © 2021 Copyright <br> Kenji Hosokawa
       </div>
       <a href="#"
-        class="text-white transition duration-300 hover:text-gray-200 hover:underline text-sm md:text-base">Back to
-        top</a>
+        class="text-white transition duration-300 hover:text-gray-200 hover:underline text-sm md:text-base md:invisible">Back to top</a>
     </div>
     </div>
   </footer>
+
 </body>
 
 </html>
