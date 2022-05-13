@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kenji Hosokawa</title>
+  <meta name="title" content="Kenji Hosokawa">
+  <meta name="og:title" content="Kenji Hosokawa">
+  <meta name="description" content="Kenji Hosokawa, Brand & Marketing Advisor, Native Creative Y.K., AdPlatz Inc., Zo Digital, CDSMP, Account Manager, Researcher">
+  <meta name="og:description" content="Kenji Hosokawa, Brand & Marketing Advisor, Native Creative Y.K., AdPlatz Inc., Zo Digital, CDSMP, Account Manager, Researcher">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="style.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+
+</head>
+
+<body class="w-full select-none">
+  <header>
+    <div id="mobileNavbar" x-data="{ mobileMenuOpen : false }" class="visible md:hidden w-full">
+      <button @click="mobileMenuOpen = !mobileMenuOpen">
+        <svg xmlns="http://www.w3.org/2000/svg" class="fill-current text-gray-700 h-14 w-14" fill="none"
+          viewBox="0 0 24 24" stroke="currentColor">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+      <nav class="text-gray-700 text-lg flex-col w-full items-center"
+        :class="{ 'flex' : mobileMenuOpen , 'hidden' : !mobileMenuOpen}" @click.away="mobileMenuOpen = false">
+        <a class="flex text-amber-500" href="index" aria-current="page">
+          Home</a>
+        <a class="flex" href="about">Portfolio</a>
+        <a class="flex" href="art">Art</a>
+        <a class="flex" href="https://github.com/kenjihoso/kenjihoso.github.io/raw/main/assets/khosokawa_resume%20JP%20vf_KH.pdf"
+        
+          target="_blank"> Eng/JP Resume </a>
+        <a class="flex" href="mailto: khosokawa10@gmail.com"> Contact Me </a>
+      </nav>
+    </div>
+
+  </header>
+  <main>
+    <div class="flex flex-col">
+      <nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded">
+        <div class="container flex flex-wrap justify-between items-center mx-auto">
+          <a href="#" class="flex items-center">
+              <span class="self-center text-xl font-semibold whitespace-nowrap "></span>
+          </a>
+          
+          <div class="hidden w-full md:block md:w-auto h-10" id="mobile-menu">
+            <ul class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-lg md:font-medium">
+              <li>
+                <a href="index" class="block text-gray-500 hover:text-amber-500 transition duration-500">Home</a>
+              </li>
+              <li>
+                <a href="about" class="block text-amber-500 cursor-default" aria-current="page">Portfolio</a>
+              </li>
+              <li>
+                <a href="art" class="block text-gray-500 hover:text-amber-500 transition duration-500">Art</a>
+              </li>
+              <li>
+                <a href="https://github.com/kenjihoso/kenjihoso.github.io/raw/main/assets/khosokawa_resume%20JP%20vf_KH.pdf" target="_blank" class="block text-gray-500 hover:text-amber-500 transition duration-500">Resume</a>
+              </li>
+              <li>
+                <a href="mailto: khosokawa10@gmail.com" class="block text-gray-500 hover:text-amber-500 transition duration-500">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="ml-8 md:ml-24 m-4">
+        <div class="mx-auto select-none">
+          <h1
+          class="flex-1 text-4xl md:text-6xl text-amber-500 pb-2 font-semibold underline decoration-gray-600">
+          Portfolio</h1>
+        </div>
+      </div>
+      
+    </div>
+    <div class=" w-4/5 md:w-4/5 mx-auto justify-center pb-20" >
+      <!-- ACCOUNT MANAGEMENT -->
+      <div class="mx-auto">
+        <h1
+        class="flex-1 text-xl md:text-4xl text-amber-500 pb-4">
+        Account Management</h1>
+        <h2 class="m-2  text-base text-gray-500">Please click on the image below to view the work.</h2>
+      </div>
+      <div class="pb-8 pt-4 ">
+        <div class="w-full border-t border-gray-300"></div>
+      </div>
+      <!-- FIRST TWO PICTURES  -->
+      <div class="flex flex-row gap-4">
+        <div class="container my-auto">
+          <a class="cursor-pointer" href="https://drive.google.com/file/d/1vv6Cq0pc2-u_Pv7DrNQYvTW0WEdOYa3T/view?usp=sharing" target="_blank">
+            <img class=" pb-1" src="assets/cisco_hybrid.jpg" alt="">
+          </a>
+          <p class=" text-gray-700 text-center mx-6">Cisco Work From Home Campaign</p>
+        </div>
+        <div class="container self-end">
+          <a class="cursor-pointer" href="https://drive.google.com/file/d/1ViV2x3wUjdLE0aVy3w3PbJm-xul9mjid/view?usp=sharing" target="_blank">
+            <img class=" pb-1" src="assets/ps_master.jpg" alt="">
+          </a>
+          <p class=" text-gray-700 text-center mx-6">Playstation Masterbrand Campaign</p>
+        </div>
+      </div>
+
+      <div class="py-8"></div>
+
+      <!-- VIDEOS -->
+      <div class="flex flex-row gap-4">
+        <div class="container my-auto mx-auto">
+          <!-- TODO CHANGE TITLE  -->
+        <iframe class="pb-1 w-full aspect-video" src="https://www.youtube.com/embed/TLjornYzZiQ" title="Cisco Work From Home Campaign video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <p class=" text-gray-700 text-center mx-6">Cisco Work From Home Campaign Video 1</p>
+        </div>
+        <div class="container my-auto mx-auto">
+           <!-- TODO CHANGE TITLE  -->
+          <iframe class="pb-1 w-full aspect-video" src="https://www.youtube.com/embed/kIbM0MyxBcE" title="Cisco Work From Home Campaign video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <p class=" text-gray-700 text-center mx-6">Cisco Work From Home Campaign Video 2</p>
+        </div>
+      </div>
+
+      <div class="py-8"></div>
+
+      <!-- LARGE IMAGE  -->
+      <div class="flex">
+        <div class="container basis-1/2 mx-auto">
+          <a class="cursor-pointer" href="https://drive.google.com/file/d/1p9tCPVjXR9St05Lrof5dR0moBhAEdZYu/view?usp=sharing" target="_blank">
+            <img class=" pb-1" src="assets/cisco_sunstain.png" alt="" >
+          </a>
+          <p class="text-gray-700 text-center mx-6">Cisco Sustainability Campaign</p>
+        </div>
+      </div>
+      
+    </div>
+    <div class=" w-4/5 md:w-4/5 mx-auto justify-center pb-20" >
+      <div class="mx-auto">
+        <h1
+        class="flex-1 text-xl md:text-4xl text-amber-500 pb-4">
+        Research</h1>
+        <h2 class="m-2  text-base text-gray-500">Please click on the image below to view the work.</h2>
+      </div>
+      <div class="pb-8 pt-4 ">
+        <div class="w-full border-t border-gray-300"></div>
+      </div>
+      
+      <div class="flex flex-row gap-4">
+        <div class="container my-auto">
+          <a class="cursor-pointer" href="https://drive.google.com/file/d/1t0WvDNEEVDVPpFlmXKguQa0haum9b5rH/view?usp=sharing" target="_blank">
+            <img class="pb-1" src="assets/gaalcohol.png" alt="">
+          </a>
+          <p class=" text-gray-700 text-center mx-6">Alcohol Research Deck</p>
+        </div>
+        <div class="container my-auto">
+          <a class="cursor-pointer" href="https://drive.google.com/file/d/1gJJwdC-XmOERH2Rz2NZK-eiF3AxqPJM7/view?usp=sharing" target="_blank">
+            <img class="pb-1" src="assets/gaconsumer.png" alt="">
+          </a>
+          <p class=" text-gray-700 text-center mx-6">F&B Research Deck</p>
+        </div>
+      </div>
+
+      <div class="py-8"></div>
+      <div class="flex">
+        <div class="container basis-1/2 mx-auto">
+          <a class="cursor-pointer" href="https://drive.google.com/file/d/1RanGw_I01iQ3Ph0pU9wiB_PlsAg3-VpD/view?usp=sharing" target="_blank">
+            <img class=" pb-1" src="assets/gapharma.png" alt="" >
+          </a>
+          <p class="text-gray-700 text-center mx-6">Pharma Research Deck</p>
+        </div>
+      </div>
+
+     
+      <div class="py-8">
+        <div class="w-full border-t border-gray-300"></div>
+      </div>
+    </div>
+    
+  </main>
+
+  <footer>
+    <div class="flex justify-between md:m-12 m-4 mt-20 pb-8 md:pb-0 md:pt-0 items-center">
+      <div class="flex flex-wrap">
+        <a href="https://www.linkedin.com/in/kenjihosokawa1110/" rel="noopener" target="_blank" title="LinkedIn">
+          <svg class="fill-current text-gray-600 w-8 md:w-14 transition duration-500 hover:text-gray-800" version="1.1"
+            viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M477 625v991h-330v-991h330zm21-306q1 73-50.5 122t-135.5 49h-2q-82 0-132-49t-50-122q0-74 51.5-122.5t134.5-48.5 133 48.5 51 122.5zm1166 729v568h-329v-530q0-105-40.5-164.5t-126.5-59.5q-63 0-105.5 34.5t-63.5 85.5q-11 30-11 81v553h-329q2-399 2-647t-1-296l-1-48h329v144h-2q20-32 41-56t56.5-52 87-43.5 114.5-15.5q171 0 275 113.5t104 332.5z">
+            </path>
+          </svg>
+        </a>
+        <div class="realtive ml-2 pt-2 transition duration-500 hover:opacity-70">
+          <a href="https://www.adforum.com/talent/82205643-kenji-hosokawa" rel="noopener" target="_blank" title="AdForum">
+            <img class="max-h-12 " src="assets/adforum.png" alt="">
+          </a>
+        </div>      
+      </div>
+      <div class="hidden md:block text-gray-700 align-middle text-sm"> © 2022 Copyright | Kenji Hosokawa</div>
+      <div class="block md:hidden text-gray-700 align-middle text-xs text-center"> © 2022 Copyright <br> Kenji Hosokawa
+      </div>
+      <a href="#"
+        class="text-gray-600 transition duration-500 hover:text-gray-800 hover:underline text-sm md:text-base underline-offset-2">Back to
+        top</a>
+    </div>
+    </div>
+  </footer>
+</body>
+
+</html>
