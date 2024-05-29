@@ -31,7 +31,6 @@
         :class="{ 'flex' : mobileMenuOpen , 'hidden' : !mobileMenuOpen}" @click.away="mobileMenuOpen = false">
         <a class="flex text-blue-400" href="index" aria-current="page">
           Home</a>
-        <a class="flex" href="portfolio">Portfolio</a>
         <a class="flex" href="art">Art</a>
         <a class="flex" href="mailto: khosokawa10@gmail.com"> Contact Me </a>
       </nav>
@@ -51,10 +50,6 @@
               <li>
                 <a href="index" class="block text-blue-400 cursor-default" aria-current="page">Home</a>
               </li>
-              
-              <li>
-                <a href="portfolio" class="block text-gray-500 hover:text-blue-400 transition duration-500">Portfolio</a>
-              </li>
               <li>
                 <a href="art" class="block text-gray-500 hover:text-blue-400 transition duration-500">Art</a>
               </li>
@@ -71,7 +66,7 @@
           <h1 class="flex text-6xl md:text-8xl text-blue-400 font-medium underline decoration-gray-600 underline-offset-2">
             Kenji Hosokawa</h1>
           <h2 class="flex text-2xl md:text-4xl text-blue-400 font-medium m-1">
-            Account Manager and Researcher</h>
+            Account Manager</h>
 
         </div>
       </div>
@@ -89,7 +84,7 @@
         About Me
       </h1>
     </div>
-    <div class=" w-4/5 md:w-4/5 mx-auto justify-center pb-20">
+    <div class="w-4/5 md:w-4/5 mx-auto justify-center pb-20">
       <div class="py-8">
         <div class="w-full border-t border-gray-300"></div>
       </div>
@@ -97,14 +92,13 @@
         <div class="basis-2/3 ">
           <h1 class="text-xl md:text-2xl text-gray-700">
             <span class="md:ml-2 text-blue-400">Hello!</span> <br><br>I’m <span class="text-blue-400">Kenji Hosokawa</span>, 
-            a half Japanese and half Italian Account Manager & Researcher in the New York Area who has
-            collaborated with ad agencies (DDB, LEAP, and Hogarth) for over 100 projects with brands such as Nike, Amazon,
-            Bayer, PlayStation, and Cisco. 
-            <br><br>      
-            My international perspective comes from my experience of working globally and
-            my fluency in English,
-            Italian, and Japanese. My global experience and unique background allows me to meet multinational client needs,
-            research complex consumer issues, and manage projects on an international scale.       
+            a marketing professional with global experience in cultivating strong client relationships & executing marketing campaigns which lead to an increase in client/agency profitability. 
+            <br><br>
+            I previously worked at Havas in New York, specializing in pharmaceutical clients, & have prior marketing experience in Japan. I am fluent in English and Italian, proficient in business Japanese, and am a graduate from the University of Wisconsin-Madison.
+            <br><br>
+            In my free time, I enjoy drawing, tennis, swimming, skiing, boxing, and volunteering! 
+            <br><br>
+            Industries Served: Pharmaceutical | Fashion | Technology | Video Game | Tourism | Sports  
             <br><br>
             <span class="md:ml-2 text-blue-400">I look forward to working together to create value from an international perspective.</span>
           </h1>
@@ -137,68 +131,12 @@
         </div>
       </div> -->
 
-    </div>
-    <div id="projects" class="flex flex-wrap mb-14 w-5/6 mx-auto">
-      <h1 class="flex-1 text-4xl md:text-6xl text-center md:text-left text-blue-400 pb-2 font-semibold underline decoration-gray-600 underline-offset-2 md:underline-offset-8">
-        Brands I've Worked With
-      </h1>
-    </div>
-    <div class=" w-4/5 md:w-3/5 mx-auto justify-center">
-      <div class="grid grid-cols-4 gap-4">
-        <div class="my-auto">
-          <img src="assets/brand_logos/nike.png" alt="">
-        </div>
-        <div class="my-auto">
-          <img src="assets/brand_logos/amazon.png" alt="">
-        </div>
-        <div class="my-auto">
-          <img src="assets/brand_logos/cisco.png" alt="">
-        </div>
-        <div class="my-auto">
-          <img src="assets/brand_logos/ps.png" alt="">
-        </div>
-        <div class="my-auto">
-          <img src="assets/brand_logos/bayer.png" alt="">
-        </div>
-        <div class="my-auto">
-          <img src="assets/brand_logos/adidas.png" alt="">
-        </div>
-        <div class="my-auto">
-          <img src="assets/brand_logos/iqos.png" alt="">
-        </div>
-        <div class="my-auto">
-          <img src="assets/brand_logos/juul.png" alt="">
-        </div>
-        <div class="my-auto">
-          <img src="assets/brand_logos/mclaren.png" alt="">
-        </div>
-        <div class="my-auto">
-          <img src="assets/brand_logos/ipc.png" alt="">
-        </div>
-        <div class="my-auto">
-          <img src="assets/brand_logos/nyk.png" alt="">
-        </div>
-        <div class="my-auto">
-          <img src="assets/brand_logos/citrix.png" alt="">
-        </div>
-        <div class="my-auto">
-          <img src="assets/brand_logos/fuji.png" alt="">
-        </div>
-        <div class="my-auto">
-          <img src="assets/brand_logos/mundi.png" alt="">
-        </div>
-        <div class="my-auto">
-          <img src="assets/brand_logos/hk.png" alt="">
-        </div>
-        <div class="my-auto">
-          <img src="assets/brand_logos/babolat.png" alt="">
-        </div>
-      </div>
-      <div class="py-8">
-        <div class="w-full border-t border-gray-300"></div>
+      <div class="flex flex-col items-center">
+        <a class=" justify-center bg-white hover:bg-gray-100 text-blue-400 font-semibold py-3 px-6 border border-blue-400 rounded shadow" href="mailto: khosokawa10@gmail.com">
+          Contact Me
+        </a>
       </div>
     </div>
-
   </main>
 
   <footer>
@@ -218,8 +156,8 @@
           </a>
         </div>      
       </div>
-      <div class="hidden md:block text-gray-700 align-middle text-sm"> © 2022 Copyright | Kenji Hosokawa</div>
-      <div class="block md:hidden text-gray-700 align-middle text-xs text-center"> © 2022 Copyright <br> Kenji Hosokawa
+      <div class="hidden md:block text-gray-700 align-middle text-sm"> © 2024 Copyright | Kenji Hosokawa</div>
+      <div class="block md:hidden text-gray-700 align-middle text-xs text-center"> © 2024 Copyright <br> Kenji Hosokawa
       </div>
       <a href="#"
         class="text-gray-600 transition duration-500 hover:text-gray-800 hover:underline text-sm md:text-base underline-offset-2">Back to
